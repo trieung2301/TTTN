@@ -7,7 +7,7 @@ class Database {
             $server = 'localhost';
             $username = 'root';
             $password = '';
-            $db = 'php-test';
+            $db = 'TTTN';
             try {
                 self::$conn = new PDO(
                     "mysql:host={$server};dbname={$db};charset=utf8",
